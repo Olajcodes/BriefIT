@@ -4,6 +4,10 @@
 .faq-section {
     margin-top: 50px;
 }
+
+.faq-section h2{
+    margin-left: 2rem;
+}
 .faq-cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -32,6 +36,7 @@
     }
     .faq-section h2 {
         font-size: 1.5rem;
+
     }
 }
 @media (max-width: 480px) {
