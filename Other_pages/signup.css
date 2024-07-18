@@ -1,0 +1,174 @@
+
+
+.container {
+  width: 90%;
+  padding: 0 20px;
+  margin: 100px auto;
+}
+
+.title-container {
+  width: 100%;
+  text-align: center;
+}
+
+.welcome {
+  color: #3f40ed;
+  font-size: 1rem;
+}
+
+.title-container h2 {
+  color: #292962;
+  margin: 15px 0;
+}
+
+form {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 20px;
+  margin: 20px 0;
+  font-family: "Poppins",  sans-serif;
+}
+
+.info {
+  display: block;
+}
+
+.details {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 15px 0;
+  border: 1px solid #e6ebf2;
+  border-radius: 10px;
+}
+
+.auth {
+  display: flex;
+  width: 100%;
+  gap: 18px;
+  margin: 13px 0;
+}
+
+.check-auth {
+  display: flex;
+}
+
+.checkbox {
+  margin-right: 5px;
+}
+
+.auth a {
+  text-decoration: none;
+  color: #3f40ed;
+}
+
+form .login-btn {
+ 
+ 
+
+  background: transparent;
+  
+}
+form .login-btn button {
+  width: 50%;
+  height: 50px;background-color: #3f40ed;
+  padding: 10px;
+  margin-left: 80px ;
+  
+  color: #ffffff;
+
+  border: none;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.login-btn button a{
+  color: #ffffff;
+  text-decoration: none;
+}
+.login-with {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.google {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #3f40ed;
+  padding: 10px 0;
+  border-radius: 6px;
+}
+
+.gg {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.login {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.register span {
+  color: #3f40ed;
+}
+
+/* media Q */
+@media (min-width: 768px) {
+  .container {
+    padding: 5px 50px;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  form {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-family: "Poppins",  sans-serif;
+  }
+}
+
+@media (min-width: 1100px) {
+  .container {
+    padding: 5px 50px;
+    margin: 100px auto;
+    align-items: center;
+  }
+
+  .welcome {
+    color: #3f40ed;
+    font-size: 1rem;
+  }
+
+  .title-container h2 {
+    color: #292962;
+    margin: 30px 0;
+    font-size: 2rem;
+  }
+
+  form {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 20px auto;
+    font-family: "Poppins",  sans-serif;
+  }
+
+  .check-auth label {
+    margin-right: 6rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  form {
+    width: 40%;
+  }
+}

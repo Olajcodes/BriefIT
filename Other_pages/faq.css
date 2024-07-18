@@ -1,0 +1,44 @@
+
+
+
+.faq-section {
+    margin-top: 50px;
+}
+.faq-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+.faq-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 80%;
+    margin: 10px auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.faq-card h3 {
+    margin: 10px;
+    margin-top: 0;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .faq-section h2 {
+        font-size: 1.5rem;
+    }
+}
+@media (max-width: 480px) {
+  
+   
+    }
+    .faq-cards {
+        grid-template-columns: 1fr;
+    }
+
