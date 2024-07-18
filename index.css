@@ -16,6 +16,7 @@ body {
     display: flex;
     flex-direction: column;
     list-style-type: none;
+    line-height: 1.5;
 }
 
 main{
@@ -256,6 +257,10 @@ header .login-btn:hover {
     font-size: 23px;
 }
 
+.contact-form textarea{
+    padding: 10px;
+}
+
 
 .contact-form button {
     width: 30%;
@@ -265,6 +270,7 @@ header .login-btn:hover {
     color: #FFFFFF; 
     border: none;
     border-radius: 5px;
+    font-size: 20px;
     cursor: pointer;
     margin: 10px auto;
 }
@@ -274,5 +280,7 @@ header .login-btn:hover {
     transform: scale(.8);
     transition: all 2s ease-in-out;
     background: #FFF;
+    border: 1px solid;
+    fon
 
 }
