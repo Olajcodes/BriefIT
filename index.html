@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,72 +8,112 @@
     <link rel="shortcut icon" href="/Assets/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
-    <header class="header">
-        <div class="logo">
-            <img src="/Assets/logo.png" alt="logo">
-        </div>
-        <nav class="nav">
-            <a href="#">Home</a>
-            <a href="/Other_pages/features.html">Features</a>
-            <a href="/Other_pages/about.html">About</a>
-            <a href="./Other_pages/teams.html">teams</a>
-            <a href="/Other_pages/faq.html">FAQs</a>
-            <a href="/Other_pages/Contact.html">Contact Us</a>
-        </nav>
-        <button class="login-btn">Log In</button>
-    </header>
+        <header class="header">
+            <div class="logo">
+                <img src="/Assets/logo.png" alt="logo">
+            </div>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="/Other_pages/features.html">Features</a>
+                <a href="#about">About</a>
+                <a href="/Other_pages/Contact.html">teams</a>
+                <a href="/Other_pages/features.html">FAQs</a>
+                <a href="/Other_pages/Contact.html">Contact Us</a>
+            </nav>
+            <button class="login-btn">Log In</button>
+        </header>
 
-    <section class="hero">
-        <div class="hero-content">
-            <h1>Brief IT</h1>
-            <h4>......Get the gist of IT......</h4>
-            <p>Simplify your article with our AI summarizer.</p>
-            <p>Transform your article from long paragraphs into digestible copy in one click.</p>
-            <a href="/Other_pages/signin.html" class="button">Get Started</a>
-        </div>
-        <div class="hero-image">
-            <img src="/Assets/hero-image.jpg" alt="">
-        </div>
-    </section>
-    <section class="hero">
-        <h1>Article Summarizer for All Your Needs</h1>
-        <p>Welcome to BriefIT, the ultimate tool for quick and accurate text summarization. Save time and effort with our powerful AI-driven summarization tool.</p>
-    </section>
-    <div class="contact-form-container">
-        <form class="contact-form">
-            <h1>Contact Us</h1>
-            <p>Please fill this form to get in contact with us</p>
-          
-                <label for="full-name">Full Name <span>*</span></label>
-                <input type="text" id="first-name" name="first-name" placeholder="First Name">
-               <label for=""> last-name <span>*</span></label>
-               
-                <input type="text" id="last-name" name="last-name" placeholder="Last Name">
-          
-                <label for="email">E-mail <span>*</span></label>
-                <input type="email" id="email" name="email" placeholder="example@example.com">
-        
-          
-                <label for="message">Message <span>*</span></label>
-                <textarea id="message" name="message" placeholder="Write your message here..."></textarea>
-           
-            <button type="submit">SUBMIT</button>
-        </form>
-    </div>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Brief IT</h1>
+                <h4>......Get the gist of IT......</h4>
+                <p>Transform your article from long paragraphs into digestible copy in one click.</p>
+                <a href="/Other_pages/signin.html" class="button">Get Started</a>
+            </div>
+            <div class="hero-image">
+                <img src="/Assets/image-hero.jpg" alt="">
+            </div>
+        </section>
+        <!-- =============About BriefIT ============== -->
+        <section class="about-section" id="about">
+            <div class="about-us">
+                <div class="h2">
+                    <h2>About Us</h2>
+                </div>
 
-    <footer class="footer">
-        <p>&copy; 2024 BriefIT. All rights reserved.</p>
-        <p>
-            <a href="#">Privacy Policy</a> | 
-            <a href="#">Terms of Service</a> | 
-            <a href="#">Help Center</a>
-        </p>
-    </footer>
+                <div class="About-text1">
+                    <p>BriefIT is an AI Driven Article/News summarization platform that condenses extensive news content
+                        into easily absorbable briefs, our mission is to deliver essential information while optimizing
+                        user time
+                        and understanding.</p>
+
+                    <p>BriefIT came into existence when a body of ten individuals, united by their passion for
+                        innovation and simplification,came together to harness the power of AI and revolutionize how
+                        people consume news, bridging the gap
+                        between information overload and timely understanding</p>
+
+                    <p>
+                        These ten individuals, with diverse expertise and a shared vision, formed a cohesive team that;
+                    </p>
+                    <ul>
+                        <li>Worked tirelessly to bring BriefIT to life</li>
+                        <li>Dreamed of making news consumption more efficient</li>
+                        <li>Believed in the potential of AI to simplify complex information</li>
+                        <li>Committed to continuously improving and refining the technology</li>
+                        <li>Shared a common goal of empowering users with concise, accurately, and timely briefs.</li>
+                    </ul>
+                    <p>
+                        Our collaboration and dedication gave birth to BriefIT, a pioneering news summarizing platform
+                        that transform the way we interact with news.
+                    </p>
+                </div>
+        </section>
+
+        <section class="about-flex">
+            <div class="about-us">
+                <div class="h2">
+                    <h2>Our Mission</h2>
+                </div>
+                <div class="About-text">
+                    <p>
+                        BriefIT is Committed to harnessing the power of artificial intelligence to deliver succinct,
+                        trustworthy and timely news summaries, streamlining the information gathering process and
+                        fostering a more informed and engaged
+                        community.
+                    </p>
+                </div>
+            </div>
+            <div>
+                <div class="about-us">
+                    <h2>Our Vision</h2>
+                </div>
+                <div class="About-text">
+                    <p>
+                        To revolutionize the way people interact with news, creating a world where everyone has access
+                        to timely, accurate and concise information empowering individuals to make informed decisions,
+                        think critically and shape a better future.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p>&copy; 2024 BriefIT. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a> |
+                <a href="#">Terms of Service</a> |
+                <a href="#">Help Center</a>
+            </p>
+        </footer>
     </div>
 </body>
+
 </html>
