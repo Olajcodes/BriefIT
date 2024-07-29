@@ -448,10 +448,16 @@ header .login-btn:hover {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.faq-card p{
+    text-align: center;
+}
+
 .faq-card h3 {
     margin: 10px;
     margin-top: 0;
     padding: 10px;
+    /* white-space: nowrap; */
+    text-align: center;
 }
 
 /* ============= Team Section ============= */
