@@ -491,3 +491,9 @@ textarea::placeholder {
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+#media{
+    background-color: black;
+    padding: 60px 20px;
+    margin-top: 60px;
+}
